@@ -1,0 +1,22 @@
+.navbar{
+    width: 100%;
+    background-color:  #f0f0f0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.navbar__items{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.navbar__menu{
+   display: flex;
+   justify-content: space-evenly;
+   padding: 25px 0 ;
+}
+.navbar__menu a {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

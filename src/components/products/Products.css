@@ -1,0 +1,32 @@
+.products{
+    margin-top: 100px;
+}
+.product__items{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1320px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.product{
+    padding: 10px;
+    margin-top: 20px;
+}
+.products__title{
+    text-align: center;
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: 500;
+    padding: 20px 0;
+    color: #000000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.product__title{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 10px 0;
+    color: #000000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
